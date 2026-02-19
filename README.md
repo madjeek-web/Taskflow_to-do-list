@@ -367,7 +367,7 @@ Développé avec ❤️ by : Fabien Conéjéro / Madjeek
 
 ## Questions et support
 
-Pour toute question ou problème, créez une [issue](https://github.com/votre-username/todo-list-pro/issues) sur le repository.
+Pour toute question ou problème, créez une [issue](https://github.com/votre-username/todo-list-pro/issues](https://github.com/madjeek-web/Taskflow_to-do-list/issues) sur le repository.
 
 ---
 
