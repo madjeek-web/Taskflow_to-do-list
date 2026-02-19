@@ -1,0 +1,90 @@
+[
+  {
+    "text": "Créer la structure HTML de base",
+    "completed": true
+  },
+  {
+    "text": "Importer les dépendances (Vite, Tailwind)",
+    "completed": true
+  },
+  {
+    "text": "Configurer Vite et Tailwind",
+    "completed": true
+  },
+  {
+    "text": "Créer la fonction createTodoItem() pour ajouter des tâches",
+    "completed": true
+  },
+  {
+    "text": "Implémenter l'export en JSON",
+    "completed": true
+  },
+  {
+    "text": "Implémenter l'import depuis un fichier JSON",
+    "completed": true
+  },
+  {
+    "text": "Ajouter les commentaires JSDoc à tous les fichiers",
+    "completed": true
+  },
+  {
+    "text": "Tester que les checkboxes fonctionnent correctement",
+    "completed": true
+  },
+  {
+    "text": "Vérifier que le bouton supprimer marche",
+    "completed": true
+  },
+  {
+    "text": "Styliser avec Tailwind CSS",
+    "completed": true
+  },
+  {
+    "text": "Ajouter des animations hover au CSS",
+    "completed": false
+  },
+  {
+    "text": "Implémenter la persistance des données en localStorage",
+    "completed": false
+  },
+  {
+    "text": "Ajouter un filtre pour voir les tâches complétées/en cours",
+    "completed": false
+  },
+  {
+    "text": "Créer une page 'À propos' fun",
+    "completed": false
+  },
+  {
+    "text": "Ajouter des catégories pour les tâches",
+    "completed": false
+  },
+  {
+    "text": "Implémenter la recherche/filtrage par nom",
+    "completed": false
+  },
+  {
+    "text": "Ajouter un système de priorités (haute/normale/basse)",
+    "completed": false
+  },
+  {
+    "text": "Créer un dark mode 🌙",
+    "completed": false
+  },
+  {
+    "text": "Ajouter des notifications toast quand on ajoute/supprime une tâche",
+    "completed": false
+  },
+  {
+    "text": "Optimiser les performances pour 1000+ tâches",
+    "completed": false
+  },
+  {
+    "text": "Publier sur GitHub Pages 🚀",
+    "completed": false
+  },
+  {
+    "text": "Devenir riche et célèbre grâce à cette todo-list 💰",
+    "completed": false
+  }
+]
