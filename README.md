@@ -354,7 +354,7 @@ Ce projet est sous license MIT - voir le fichier [LICENSE](LICENSE) pour plus de
 
 ## Auteur
 
-Développé avec ❤️
+Développé avec ❤️ by : Fabien Conéjéro / Madjeek
 
 ---
 
