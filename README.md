@@ -3,13 +3,6 @@
 Une application web moderne et intuitive de gestion de tâches, conçue avec simplicité et performance en tête.
 
 
-
-
-
-
-
-
-
 # ✅ Taskflow — Your to-do list, finally done right
 
 [![MIT License](https://img.shields.io/badge/License-MIT-7c6af7.svg)](https://github.com/madjeek-web/Taskflow_to-do-list/blob/main/SECURITY.md)
@@ -27,7 +20,7 @@ Une application web moderne et intuitive de gestion de tâches, conçue avec sim
 
 ## 🌐 Try it now — no installation needed!
 
-> 👉 **[Open Taskflow online](https://madjeek-web.github.io/Taskflow_to-do-list/)** 👈
+> 👉 **[Open Taskflow online](https://madjeek-web.github.io/taskflow/taskflow-standalone.html)** 👈
 
 One click and you're good to go. No account, no download, no installation.
 
