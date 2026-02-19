@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Taskflow — Gestionnaire de tâches</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,600;9..144,700&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="toastContainer" aria-live="polite" aria-atomic="true"></div>
+
+  <div id="shortcutsModal" class="modal-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="shortcutsTitle">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h2 id="shortcutsTitle" class="modal-title">Raccourcis clavier</h2>
+        <button id="closeShortcuts" class="modal-close" aria-label="Fermer">✕</button>
+      </div>
+      <div class="shortcuts-grid">
+        <div class="shortcut-item"><kbd>Enter</kbd><span>Ajouter une tâche</span></div>
+        <div class="shortcut-item"><kbd>Ctrl+D</kbd><span>Dark / Light mode</span></div>
+        <div class="shortcut-item"><kbd>Ctrl+F</kbd><span>Focus recherche</span></div>
+        <div class="shortcut-item"><kbd>Ctrl+E</kbd><span>Exporter JSON</span></div>
+        <div class="shortcut-item"><kbd>Escape</kbd><span>Annuler édition</span></div>
+        <div class="shortcut-item"><kbd>?</kbd><span>Ce panneau</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="app">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-brand">
+        <div class="brand-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+        </div>
+        <span class="brand-name">Taskflow</span>
+      </div>
+
+      <div class="sidebar-stats">
+        <div class="stat-card"><span class="stat-value" id="statTotal">0</span><span class="stat-label">Total</span></div>
+        <div class="stat-card"><span class="stat-value accent" id="statPending">0</span><span class="stat-label">En cours</span></div>
+        <div class="stat-card"><span class="stat-value success" id="statDone">0</span><span class="stat-label">Faites</span></div>
+      </div>
+
+      <div class="sidebar-section">
+        <div class="progress-header">
+          <span class="section-label">Progression</span>
+          <span class="progress-pct" id="progressPct">0%</span>
+        </div>
+        <div class="progress-track" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" id="progressTrack">
+          <div class="progress-fill" id="progressBar"></div>
+        </div>
+      </div>
+
+      <div class="sidebar-section">
+        <span class="section-label">Vue</span>
+        <nav class="filter-nav" role="tablist">
+          <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+            Toutes
+          </button>
+          <button class="filter-btn" data-filter="active" role="tab" aria-selected="false">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            En cours
+          </button>
+          <button class="filter-btn" data-filter="completed" role="tab" aria-selected="false">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+            Terminées
+          </button>
+        </nav>
+      </div>
+
+      <div class="sidebar-section">
+        <span class="section-label">Priorité</span>
+        <nav class="priority-nav">
+          <button class="priority-filter-btn active" data-priority="all">Toutes</button>
+          <button class="priority-filter-btn" data-priority="high"><span class="dot dot-high"></span>Haute</button>
+          <button class="priority-filter-btn" data-priority="medium"><span class="dot dot-medium"></span>Moyenne</button>
+          <button class="priority-filter-btn" data-priority="low"><span class="dot dot-low"></span>Basse</button>
+        </nav>
+      </div>
+
+      <div class="sidebar-section">
+        <span class="section-label">Catégories</span>
+        <div id="categoriesList" class="categories-list"></div>
+      </div>
+
+      <div class="sidebar-bottom">
+        <button id="clearCompleted" class="sidebar-action danger">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"/><path d="M19 6v14a2 2 0 01-2 2H7a2 2 0 01-2-2V6m3 0V4a1 1 0 011-1h4a1 1 0 011 1v2"/></svg>
+          Vider terminées
+        </button>
+        <button id="themeToggle" class="sidebar-action">
+          <svg id="themeIcon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          <span id="themeLabel">Mode clair</span>
+        </button>
+        <button id="shortcutsBtn" class="sidebar-action">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M6 8h.01M10 8h.01M14 8h.01M18 8h.01M8 12h.01M12 12h.01M16 12h.01M7 16h10"/></svg>
+          Raccourcis
+        </button>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <header class="main-header">
+        <div class="header-top">
+          <div class="header-text">
+            <h1 class="app-title">Mes tâches</h1>
+            <p class="app-subtitle" id="dateDisplay"></p>
+          </div>
+          <div class="header-actions">
+            <input type="file" id="fileInput" accept=".json" style="display:none" />
+            <button id="importBtn" class="icon-btn" title="Importer JSON">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+            </button>
+            <button id="exportBtn" class="icon-btn" title="Exporter JSON (Ctrl+E)">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="search-wrapper">
+          <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input type="search" id="searchInput" placeholder="Rechercher une tâche…" class="search-input" autocomplete="off" />
+          <kbd class="search-shortcut">Ctrl+F</kbd>
+        </div>
+      </header>
+
+      <div class="add-form" id="addForm">
+        <div class="add-form-main">
+          <input type="text" id="todoInput" placeholder="Nouvelle tâche…" class="add-input" autocomplete="off" />
+          <button id="addBtn" class="add-btn" aria-label="Ajouter la tâche">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </button>
+        </div>
+        <div class="add-form-options">
+          <select id="prioritySelect" class="form-select" aria-label="Priorité">
+            <option value="medium">⬦ Moyenne</option>
+            <option value="high">▲ Haute</option>
+            <option value="low">▼ Basse</option>
+          </select>
+          <input type="text" id="categoryInput" placeholder="Catégorie…" class="form-input-sm" list="categoryDatalist" autocomplete="off" />
+          <datalist id="categoryDatalist"></datalist>
+          <input type="date" id="dueDateInput" class="form-input-sm" aria-label="Échéance" />
+        </div>
+      </div>
+
+      <div class="sort-bar">
+        <span class="sort-label">Tri :</span>
+        <button class="sort-btn active" data-sort="createdAt">Date</button>
+        <button class="sort-btn" data-sort="priority">Priorité</button>
+        <button class="sort-btn" data-sort="alpha">A–Z</button>
+        <button class="sort-btn" data-sort="dueDate">Échéance</button>
+        <div class="sort-sep"></div>
+        <button id="sortDirBtn" class="sort-dir-btn" title="Inverser">
+          <svg id="sortDirIcon" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><polyline points="19 12 12 19 5 12"/></svg>
+        </button>
+      </div>
+
+      <div class="task-list-wrapper">
+        <ul id="todoList" class="task-list" aria-label="Liste des tâches"></ul>
+        <div id="emptyState" class="empty-state hidden">
+          <div class="empty-icon">
+            <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+          </div>
+          <p class="empty-title" id="emptyTitle">Aucune tâche</p>
+          <p class="empty-sub" id="emptySub">Ajoutez votre première tâche ci-dessus</p>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
