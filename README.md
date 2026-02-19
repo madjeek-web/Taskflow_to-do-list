@@ -84,6 +84,7 @@ One click and you're good to go. No account, no download, no installation.
 - [Author](#-author)
 
 ---
+<img src="https://github.com/madjeek-web/Taskflow_to-do-list/raw/main//Taskflow to-do list Pro_icon_0.jpg" width="35%" height="35%">
 
 ## 🗂️ What is it?
 
