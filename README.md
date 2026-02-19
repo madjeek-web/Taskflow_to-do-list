@@ -24,6 +24,24 @@ Une application web moderne et intuitive de gestion de tâches, conçue avec sim
 
 One click and you're good to go. No account, no download, no installation.
 
+## 🌍 Download Taskflow — Choose your language :
+
+> 💡 Click the link to **open the app instantly** in your browser.
+> To save the file on your computer: press **Ctrl + S** (or **Cmd + S** on Mac) once the app is open.
+
+| Language | Download |
+|---|---|
+| 🇫🇷 Français | <a href="https://madjeek-web.github.io/taskflow/taskflow-fr.html" target="_blank">⬇️ taskflow-fr.html</a> |
+| 🇬🇧 English | <a href="https://madjeek-web.github.io/taskflow/taskflow-en.html" target="_blank">⬇️ taskflow-en.html</a> |
+| 🇨🇳 中文 Mandarin | <a href="https://madjeek-web.github.io/taskflow/taskflow-zh.html" target="_blank">⬇️ taskflow-zh.html</a> |
+| 🇮🇳 हिंदी Hindi | <a href="https://madjeek-web.github.io/taskflow/taskflow-hi.html" target="_blank">⬇️ taskflow-hi.html</a> |
+| 🇪🇸 Español | <a href="https://madjeek-web.github.io/taskflow/taskflow-es.html" target="_blank">⬇️ taskflow-es.html</a> |
+| 🇸🇦 العربية Arabe | <a href="https://madjeek-web.github.io/taskflow/taskflow-ar.html" target="_blank">⬇️ taskflow-ar.html</a> |
+| 🇧🇩 বাংলা Bengali | <a href="https://madjeek-web.github.io/taskflow/taskflow-bn.html" target="_blank">⬇️ taskflow-bn.html</a> |
+| 🇧🇷 Português | <a href="https://madjeek-web.github.io/taskflow/taskflow-pt.html" target="_blank">⬇️ taskflow-pt.html</a> |
+| 🇷🇺 Русский | <a href="https://madjeek-web.github.io/taskflow/taskflow-ru.html" target="_blank">⬇️ taskflow-ru.html</a> |
+| 🇯🇵 日本語 Japanese | <a href="https://madjeek-web.github.io/taskflow/taskflow-ja.html" target="_blank">⬇️ taskflow-ja.html</a> |
+
 ---
 
 ## 📸 Screenshots
