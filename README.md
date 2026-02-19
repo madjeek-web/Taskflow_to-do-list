@@ -371,6 +371,6 @@ Pour toute question ou problème, créez une [issue](https://github.com/votre-us
 
 ---
 
-**Dernière mise à jour** : Octobre 2025
+**Dernière mise à jour** : 19/02/2026
 
 Merci d'utiliser Todo List Pro ! 🚀
