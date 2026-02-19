@@ -20,7 +20,7 @@ Une application web moderne et intuitive de gestion de tâches, conçue avec sim
 
 ## 🌐 Try it now — no installation needed!
 
-> 👉 **[Open Taskflow online](https://madjeek-web.github.io/taskflow/taskflow-standalone.html)** 👈
+<a href="https://madjeek-web.github.io/taskflow/taskflow-standalone.html" target="_blank">👉 <strong>Open Taskflow online</strong> 👈</a>
 
 One click and you're good to go. No account, no download, no installation.
 
@@ -143,7 +143,7 @@ npm --version
 
 ### Option 1 — Online (the fastest ⚡)
 
-Simply click this link: **[https://madjeek-web.github.io/Taskflow_to-do-list/](https://madjeek-web.github.io/taskflow/taskflow-standalone.html)**
+<a href="https://madjeek-web.github.io/taskflow/taskflow-standalone.html" target="_blank">Simply click this link: <strong>https://madjeek-web.github.io/taskflow/taskflow-standalone.html</strong></a>
 
 No download, no account, no installation. One click and you're ready.
 
