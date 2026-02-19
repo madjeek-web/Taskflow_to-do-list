@@ -1,4 +1,4 @@
-<img src="https://github.com/madjeek-web/Taskflow_to-do-list/raw/main//Taskflow to-do list Pro_icon_0.jpg" width="100%" height="100%">
+<img src="https://github.com/madjeek-web/Taskflow_to-do-list/raw/main//Taskflow to-do list Pro_icon_0.jpg" width="75%" height="75%">
 
 # Todo List Pro
 
