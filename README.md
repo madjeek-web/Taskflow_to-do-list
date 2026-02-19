@@ -143,7 +143,7 @@ npm --version
 
 ### Option 1 — Online (the fastest ⚡)
 
-Simply click this link: **[https://madjeek-web.github.io/Taskflow_to-do-list/](https://madjeek-web.github.io/Taskflow_to-do-list/)**
+Simply click this link: **[https://madjeek-web.github.io/Taskflow_to-do-list/](https://madjeek-web.github.io/taskflow/taskflow-standalone.html)**
 
 No download, no account, no installation. One click and you're ready.
 
