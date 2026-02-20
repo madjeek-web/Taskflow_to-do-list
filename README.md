@@ -5,7 +5,7 @@
 Une application web moderne et intuitive de gestion de tâches, conçue avec simplicité et performance en tête.
 
 
-# Taskflow — Your to-do list, finally done right
+# Taskflow Your to-do list, finally done right
 
 [![MIT License](https://img.shields.io/badge/License-MIT-7c6af7.svg)](https://github.com/madjeek-web/Taskflow_to-do-list/blob/main/SECURITY.md)
 [![Built with HTML CSS JS](https://img.shields.io/badge/Built%20with-HTML%20%7C%20CSS%20%7C%20JS-f5a623.svg)](https://github.com/madjeek-web/Taskflow_to-do-list)
@@ -179,7 +179,7 @@ No download, no account, no installation. One click and you're ready.
 3. It opens in your browser (Chrome, Firefox, Safari...)
 4. That's it. You can start using Taskflow right away ! 
 
-> 💡 This file works without an internet connection. You can even put it on a USB stick and use it on any computer!
+> This file works without an internet connection. You can even put it on a USB stick and use it on any computer!
 
 ---
 
@@ -357,7 +357,7 @@ Taskflow_to-do-list/
 
 ---
 
-## 📜 Available scripts
+## Available scripts
 
 ### `npm run dev`
 Starts the development server with hot reload.
@@ -392,7 +392,7 @@ npm run preview
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ### General architecture
 
@@ -456,22 +456,22 @@ The application uses a **centralized reactive store** (`store.js`) with a mini e
 
 ---
 
-## 📥 Export & Import
+## Export & Import
 
 ### Export (save)
-Click the **⬇️ Export** button in the top right corner.
+Click the ** Export** button in the top right corner.
 This downloads a `.json` file to your computer.
 This file contains all your tasks. Keep it safe as a backup!
 
 ### Import (restore)
-Click the **⬆️ Import** button, then select a `.json` file you previously exported.
+Click the ** Import** button, then select a `.json` file you previously exported.
 All your tasks reappear instantly.
 
-> 💡 The JSON format is simply a text file that computers can read easily. You can open it with any text editor to see your tasks in a structured format.
+> The JSON format is simply a text file that computers can read easily. You can open it with any text editor to see your tasks in a structured format.
 
 ---
 
-## 🚢 Deployment
+## Deployment
 
 ### Deploy on GitHub Pages
 
@@ -503,25 +503,25 @@ Then enable GitHub Pages in your repository settings, pointing to the `dist/` fo
 
 ---
 
-## 🗺️ Roadmap
+## Roadmap
 
 Here are the features planned for future versions.
 Have an idea? Open an [Issue](https://github.com/madjeek-web/Taskflow_to-do-list/issues) to discuss it!
 
-- [ ] 🔁 Recurring tasks (e.g. "every Monday")
-- [ ] 🏷️ Custom coloured labels system
-- [ ] 📎 Long notes attached to a task
-- [ ] 📆 Calendar view to visualise deadlines
-- [ ] 🔔 Browser reminder notifications
-- [ ] 🎨 Customisable colour themes
-- [ ] 🔐 User authentication
-- [ ] ☁️ Optional cloud sync between devices
-- [ ] 📱 Native mobile application (Android & iOS)
-- [ ] 🌍 Translation into other languages
+- [ ] Recurring tasks (e.g. "every Monday")
+- [ ] Custom coloured labels system
+- [ ] Long notes attached to a task
+- [ ] Calendar view to visualise deadlines
+- [ ] Browser reminder notifications
+- [ ] Customisable colour themes
+- [ ] User authentication
+- [ ] Optional cloud sync between devices
+- [ ] Native mobile application (Android & iOS)
+- [ ] Translation into other languages
 
 ---
 
-## ❓ Frequently Asked Questions (FAQ)
+## Frequently Asked Questions (FAQ)
 
 **Do my tasks disappear if I close the browser?**
 No! Everything is saved automatically in your browser. You can close it, restart your computer, reopen the browser — your tasks are still there.
@@ -546,7 +546,7 @@ Of course! Even reporting a bug or suggesting an idea in the [Issues](https://gi
 
 ---
 
-## 🤝 Contribution
+## Contribution
 
 Contributions are welcome! Here is how to contribute:
 
@@ -580,7 +580,7 @@ git push origin feature/new-feature-name
 
 ---
 
-## 🙏 Credits & acknowledgements
+## Credits & acknowledgements
 
 Taskflow could not have existed without these open source tools and projects:
 
@@ -625,7 +625,7 @@ Your tasks are stored in `localStorage`. If you cleared your browser data, the t
 
 ---
 
-## ⚡ Performance
+## Performance
 
 - **Bundle size**: ~50 KB (minified, before gzip)
 - **Gzip**: ~15 KB
@@ -635,20 +635,20 @@ Your tasks are stored in `localStorage`. If you cleared your browser data, the t
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License.
 
 The MIT License gives you the right to:
 
-- ✅ Use this project for free, for personal or professional use
-- ✅ Copy the code and integrate it into your own projects
-- ✅ Modify the code however you like
-- ✅ Distribute your modified version, even if you sell it
+- Use this project for free, for personal or professional use
+- Copy the code and integrate it into your own projects
+- Modify the code however you like
+- Distribute your modified version, even if you sell it
 
 The only thing we ask in return:
 
-- ⚠️ Keep the original creator's credit in the files you redistribute
+- Keep the original creator's credit in the files you redistribute
 
 ```
 MIT License
@@ -672,7 +672,7 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 
 ---
 
-## 👤 Author
+## Author
 
 Developed with ❤️ by **Fabien Conéjéro / Madjeek**
 
@@ -682,14 +682,14 @@ This project was born from a simple desire: to have a task list that is truly pl
 
 ## 📚 Useful resources
 
-- 📖 [Vite documentation](https://vitejs.dev)
-- 🎨 [Tailwind CSS documentation](https://tailwindcss.com)
-- 🎯 [MDN — Web APIs](https://developer.mozilla.org/docs/Web/API)
-- 📚 [Modern JavaScript](https://javascript.info)
+- [Vite documentation](https://vitejs.dev)
+- [Tailwind CSS documentation](https://tailwindcss.com)
+- [MDN — Web APIs](https://developer.mozilla.org/docs/Web/API)
+- [Modern JavaScript](https://javascript.info)
 
 ---
 
-## 💬 Questions & support
+## Questions & support
 
 For any question or problem, open an [**Issue**](https://github.com/madjeek-web/Taskflow_to-do-list/issues) on the repository.
 Try to be as precise as possible: which browser you're using, what you did, what happened.
@@ -698,12 +698,12 @@ Try to be as precise as possible: which browser you're using, what you did, what
 
 **Last updated**: 19/02/2026
 
-Thank you for using Taskflow! 🚀
+Thank you for using Taskflow ! 
 
 ---
 
-*🌐 Live demo: [https://madjeek-web.github.io/Taskflow_to-do-list/](https://madjeek-web.github.io/Taskflow_to-do-list/)*
-*🔒 Security policy: [SECURITY.md](https://github.com/madjeek-web/Taskflow_to-do-list/blob/main/SECURITY.md)*
+* Live demo: [https://madjeek-web.github.io/Taskflow_to-do-list/](https://madjeek-web.github.io/Taskflow_to-do-list/)*
+* Security policy: [SECURITY.md](https://github.com/madjeek-web/Taskflow_to-do-list/blob/main/SECURITY.md)*
 
 
 ##
@@ -742,15 +742,15 @@ Une application web moderne et intuitive de gestion de tâches, conçue avec sim
 
 ## Fonctionnalités
 
-✨ **Gestion intuitive des tâches**
-- ✅ Ajouter, modifier et supprimer des tâches en temps réel
-- ☑️ Marquer les tâches comme complétées avec un simple clic
-- 📊 Compteur automatique du nombre de tâches
-- 💾 Exporter vos tâches au format JSON
-- 📂 Importer des tâches depuis un fichier JSON
-- 📱 Design responsive et adapté mobile
-- 🎨 Interface épurée et moderne avec Tailwind CSS
-- 🚀 Performance optimale avec Vite
+ **Gestion intuitive des tâches**
+- Ajouter, modifier et supprimer des tâches en temps réel
+- Marquer les tâches comme complétées avec un simple clic
+- Compteur automatique du nombre de tâches
+- Exporter vos tâches au format JSON
+- Importer des tâches depuis un fichier JSON
+- Design responsive et adapté mobile
+- Interface épurée et moderne avec Tailwind CSS
+- Performance optimale avec Vite
 
 ## Technologies
 
@@ -973,14 +973,14 @@ const tasks = JSON.parse(localStorage.getItem('todos'));
 
 ### Améliorations futures possibles
 
-- 🔐 Authentification utilisateur
-- ☁️ Synchronisation cloud
-- 🏷️ Catégories et tags
-- 📅 Dates d'échéance
-- 🔔 Notifications et rappels
-- 🎨 Thèmes personnalisables
-- 📱 Application mobile native
-- ⌨️ Raccourcis clavier
+- Authentification utilisateur
+- Synchronisation cloud
+- Catégories et tags
+- Dates d'échéance
+- Notifications et rappels
+- Thèmes personnalisables
+- Application mobile native
+- Raccourcis clavier
 
 ## Déploiement
 
@@ -1080,10 +1080,10 @@ Développé avec ❤️ by : Fabien Conéjéro / Madjeek
 
 ## Ressources utiles
 
-- 📖 [Documentation Vite](https://vitejs.dev)
-- 🎨 [Documentation Tailwind CSS](https://tailwindcss.com)
-- 🎯 [MDN - Web APIs](https://developer.mozilla.org/docs/Web/API)
-- 📚 [JavaScript moderne](https://javascript.info)
+- [Documentation Vite](https://vitejs.dev)
+- [Documentation Tailwind CSS](https://tailwindcss.com)
+- [MDN - Web APIs](https://developer.mozilla.org/docs/Web/API)
+- [JavaScript moderne](https://javascript.info)
 
 ## Questions et support
 
@@ -1093,7 +1093,7 @@ Pour toute question ou problème, créez une [issue](https://github.com/madjeek-
 
 **Dernière mise à jour** : 19/02/2026
 
-Merci d'utiliser Todo List Pro ! 🚀
+Merci d'utiliser Todo List Pro ! 
 
 ##
 ##
@@ -1102,13 +1102,13 @@ Merci d'utiliser Todo List Pro ! 🚀
 
 <img src="https://github.com/madjeek-web/Taskflow_to-do-list/raw/main//Taskflow to-do list-pro-mascot_02.jpg" width="60%" height="60%">
 
-# 🔒 Security & Privacy — Taskflow
+# Security & Privacy — Taskflow
 
 > **One sentence summary:** Taskflow collects no data, connects to no server, and everything stays on your computer. Full stop.
 
 ---
 
-## 🛡️ What Taskflow does with your data
+## What Taskflow does with your data
 
 ### The short answer: absolutely nothing.
 
@@ -1118,18 +1118,18 @@ Here is a clear table of what the application does — and does not do — with 
 
 | Question | Answer |
 |---|---|
-| 📡 Does the app send my tasks over the internet? | **No, never.** |
-| 👀 Can someone see my tasks? | **No, nobody.** |
-| 🍪 Does the app use cookies? | **No.** |
-| 📊 Is there any analytics or tracking? | **No.** |
-| 💰 Is my data sold? | **No, impossible.** |
-| 🔑 Do I need to create an account? | **No account required.** |
-| 📧 Do I need to provide my email? | **No, never.** |
-| 🌐 Do I need an internet connection? | **No, it works offline.** |
+| Does the app send my tasks over the internet? | **No, never.** |
+| Can someone see my tasks? | **No, nobody.** |
+| Does the app use cookies? | **No.** |
+| Is there any analytics or tracking? | **No.** |
+| Is my data sold? | **No, impossible.** |
+| Do I need to create an account? | **No account required.** |
+| Do I need to provide my email? | **No, never.** |
+| Do I need an internet connection? | **No, it works offline.** |
 
 ---
 
-## 💾 Where is my data stored?
+## Where is my data stored?
 
 Your tasks are saved in what is called your browser's **`localStorage`**.
 
@@ -1137,24 +1137,24 @@ To put it simply: it's a small storage space that your browser makes available t
 
 **What this means in practice:**
 
-- ✅ Your data **never leaves** your computer
-- ✅ Even Fabien Conéjéro, the creator of Taskflow, **cannot see** your tasks
-- ✅ No internet connection is needed for the app to work
-- ✅ If you want to erase everything, simply clear your browser's localStorage (or delete the file)
+- Your data **never leaves** your computer
+- Even Fabien Conéjéro, the creator of Taskflow, **cannot see** your tasks
+- No internet connection is needed for the app to work
+- If you want to erase everything, simply clear your browser's localStorage (or delete the file)
 
 ---
 
-## 🌐 What about the Google Fonts connection?
+## What about the Google Fonts connection?
 
 The online version of Taskflow loads fonts (typefaces) from **Google Fonts**. This is only to make the text look nice.
 
 This connection is **the one and only** network communication the app makes, and it transmits none of your tasks — just a font file request, like any website that displays styled text.
 
-> 💡 **If you use the `taskflow-standalone.html` version** offline, even this connection does not happen. The app works perfectly with your system's default fonts.
+> **If you use the `taskflow-standalone.html` version** offline, even this connection does not happen. The app works perfectly with your system's default fonts.
 
 ---
 
-## 🔍 How to verify this yourself
+## How to verify this yourself
 
 You don't have to take our word for it. Here's how to check for yourself that Taskflow sends nothing over the internet:
 
@@ -1168,17 +1168,17 @@ This is what we call **transparency through code** — the full source code is a
 
 ---
 
-## 📂 The source code is open
+## The source code is open
 
 Taskflow is an **open source** project. This means that **all the code is visible** to anyone, at any time, on this GitHub repository.
 
 There is no hidden code, no secret part, no mysterious file running in the background. What you see in the files is exactly what the application does — nothing more, nothing less.
 
-> 💡 **For developers:** the entire codebase is available in the `src/` folder. The `store.js` file handles all data — you can verify that no function makes any outgoing HTTP request.
+> **For developers:** the entire codebase is available in the `src/` folder. The `store.js` file handles all data — you can verify that no function makes any outgoing HTTP request.
 
 ---
 
-## 🧹 How to delete all my data
+## How to delete all my data
 
 If you want to cleanly erase everything, you have two options:
 
@@ -1193,7 +1193,7 @@ Go to your browser settings → Privacy → Clear browsing data → Site data. N
 
 ---
 
-## 🚨 Reporting a security vulnerability
+## Reporting a security vulnerability
 
 Found a security issue in Taskflow? Please do not expose it publicly in a GitHub Issue.
 
@@ -1201,7 +1201,7 @@ Contact the creator directly by opening an Issue labelled **`[SECURITY]`** with 
 
 ---
 
-## ✅ Summary for parents and teachers
+## Summary for parents and teachers
 
 Taskflow is a **100% local** application that:
 
