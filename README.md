@@ -33,16 +33,16 @@ One click and you're good to go. No account, no download, no installation.
 
 | Language | Download |
 |---|---|
-| 🇫🇷 Français | <a href="https://madjeek-web.github.io/taskflow/taskflow-fr.html" target="_blank">⬇️ taskflow-fr.html</a> |
-| 🇬🇧 English | <a href="https://madjeek-web.github.io/taskflow/taskflow-en.html" target="_blank">⬇️ taskflow-en.html</a> |
-| 🇨🇳 中文 Mandarin | <a href="https://madjeek-web.github.io/taskflow/taskflow-zh.html" target="_blank">⬇️ taskflow-zh.html</a> |
-| 🇮🇳 हिंदी Hindi | <a href="https://madjeek-web.github.io/taskflow/taskflow-hi.html" target="_blank">⬇️ taskflow-hi.html</a> |
-| 🇪🇸 Español | <a href="https://madjeek-web.github.io/taskflow/taskflow-es.html" target="_blank">⬇️ taskflow-es.html</a> |
-| 🇸🇦 العربية Arabe | <a href="https://madjeek-web.github.io/taskflow/taskflow-ar.html" target="_blank">⬇️ taskflow-ar.html</a> |
-| 🇧🇩 বাংলা Bengali | <a href="https://madjeek-web.github.io/taskflow/taskflow-bn.html" target="_blank">⬇️ taskflow-bn.html</a> |
-| 🇧🇷 Português | <a href="https://madjeek-web.github.io/taskflow/taskflow-pt.html" target="_blank">⬇️ taskflow-pt.html</a> |
-| 🇷🇺 Русский | <a href="https://madjeek-web.github.io/taskflow/taskflow-ru.html" target="_blank">⬇️ taskflow-ru.html</a> |
-| 🇯🇵 日本語 Japanese | <a href="https://madjeek-web.github.io/taskflow/taskflow-ja.html" target="_blank">⬇️ taskflow-ja.html</a> |
+| 🇫🇷 Français | <a href="https://madjeek-web.github.io/taskflow/taskflow-fr.html" target="_blank"> taskflow-fr.html</a> |
+| 🇬🇧 English | <a href="https://madjeek-web.github.io/taskflow/taskflow-en.html" target="_blank"> taskflow-en.html</a> |
+| 🇨🇳 中文 Mandarin | <a href="https://madjeek-web.github.io/taskflow/taskflow-zh.html" target="_blank"> taskflow-zh.html</a> |
+| 🇮🇳 हिंदी Hindi | <a href="https://madjeek-web.github.io/taskflow/taskflow-hi.html" target="_blank"> taskflow-hi.html</a> |
+| 🇪🇸 Español | <a href="https://madjeek-web.github.io/taskflow/taskflow-es.html" target="_blank"> taskflow-es.html</a> |
+| 🇸🇦 العربية Arabe | <a href="https://madjeek-web.github.io/taskflow/taskflow-ar.html" target="_blank"> taskflow-ar.html</a> |
+| 🇧🇩 বাংলা Bengali | <a href="https://madjeek-web.github.io/taskflow/taskflow-bn.html" target="_blank"> taskflow-bn.html</a> |
+| 🇧🇷 Português | <a href="https://madjeek-web.github.io/taskflow/taskflow-pt.html" target="_blank"> taskflow-pt.html</a> |
+| 🇷🇺 Русский | <a href="https://madjeek-web.github.io/taskflow/taskflow-ru.html" target="_blank"> taskflow-ru.html</a> |
+| 🇯🇵 日本語 Japanese | <a href="https://madjeek-web.github.io/taskflow/taskflow-ja.html" target="_blank"> taskflow-ja.html</a> |
 
 ---
 
@@ -103,8 +103,6 @@ Taskflow is exactly that, but on your computer or phone. And way better than a p
 - you can **filter, sort and search** through your list in a few clicks
 
 ---
-
-<img src="https://github.com/madjeek-web/Taskflow_to-do-list/raw/main//Taskflow to-do list-pro-mascot_01.jpg" width="60%" height="60%">
 
 ## Features
 
@@ -590,11 +588,11 @@ Taskflow could not have existed without these open source tools and projects:
 - [**Google Fonts**](https://fonts.google.com/) — The Fraunces and Plus Jakarta Sans typefaces
 - [**GitHub**](https://github.com/) — Hosting for the code and the live demo
 
-A big thank you to the open source community that makes projects like this one possible. 🙌
+A big thank you to the open source community that makes projects like this one possible. 
 
 ---
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### The development server won't start
 
@@ -1099,8 +1097,6 @@ Merci d'utiliser Todo List Pro !
 ##
 
 ##
-
-<img src="https://github.com/madjeek-web/Taskflow_to-do-list/raw/main//Taskflow to-do list-pro-mascot_02.jpg" width="60%" height="60%">
 
 # Security & Privacy — Taskflow
 
