@@ -104,7 +104,7 @@ Taskflow is exactly that, but on your computer or phone. And way better than a p
 
 ---
 
-<img src="https://github.com/madjeek-web/Taskflow_to-do-list/raw/main//Taskflow to-do list-pro-mascot_01.jpg" width="40%" height="40%">
+<img src="https://github.com/madjeek-web/Taskflow_to-do-list/raw/main//Taskflow to-do list-pro-mascot_01.jpg" width="60%" height="60%">
 
 ## ✨ Features
 
@@ -1100,7 +1100,7 @@ Merci d'utiliser Todo List Pro ! 🚀
 
 ##
 
-<img src="https://github.com/madjeek-web/Taskflow_to-do-list/raw/main//Taskflow to-do list-pro-mascot_02.jpg" width="40%" height="40%">
+<img src="https://github.com/madjeek-web/Taskflow_to-do-list/raw/main//Taskflow to-do list-pro-mascot_02.jpg" width="60%" height="60%">
 
 # 🔒 Security & Privacy — Taskflow
 
