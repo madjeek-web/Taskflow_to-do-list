@@ -5,7 +5,7 @@
 Une application web moderne et intuitive de gestion de tâches, conçue avec simplicité et performance en tête.
 
 
-# ✅ Taskflow — Your to-do list, finally done right
+# Taskflow — Your to-do list, finally done right
 
 [![MIT License](https://img.shields.io/badge/License-MIT-7c6af7.svg)](https://github.com/madjeek-web/Taskflow_to-do-list/blob/main/SECURITY.md)
 [![Built with HTML CSS JS](https://img.shields.io/badge/Built%20with-HTML%20%7C%20CSS%20%7C%20JS-f5a623.svg)](https://github.com/madjeek-web/Taskflow_to-do-list)
@@ -20,15 +20,15 @@ Une application web moderne et intuitive de gestion de tâches, conçue avec sim
 
 ---
 
-## 🌐 Try it now — no installation needed!
+## Try it now — no installation needed!
 
-<a href="https://madjeek-web.github.io/taskflow/taskflow-standalone.html" target="_blank">👉 <strong>Open Taskflow online</strong> 👈</a>
+<a href="https://madjeek-web.github.io/taskflow/taskflow-standalone.html" target="_blank"> <strong>Open Taskflow online</strong> </a>
 
 One click and you're good to go. No account, no download, no installation.
 
-## 🌍 Download Taskflow — Choose your language :
+## Download Taskflow — Choose your language :
 
-> 💡 Click the link to **open the app instantly** in your browser.
+> Click the link to **open the app instantly** in your browser.
 > To save the file on your computer: press **Ctrl + S** (or **Cmd + S** on Mac) once the app is open.
 
 | Language | Download |
@@ -48,13 +48,13 @@ One click and you're good to go. No account, no download, no installation.
 
 ## 📸 Screenshots
 
-### Dark mode 🌙
+### Dark mode 
 ![Taskflow dark mode](https://github.com/madjeek-web/Taskflow_to-do-list/raw/main/screenshots/dark-mode.png)
 
-### Light mode ☀️
+### Light mode 
 ![Taskflow light mode](https://github.com/madjeek-web/Taskflow_to-do-list/raw/main/screenshots/light-mode.png)
 
-### On mobile 📱
+### On mobile 
 ![Taskflow on mobile](https://github.com/madjeek-web/Taskflow_to-do-list/raw/main/screenshots/mobile.png)
 
 ---
@@ -86,7 +86,7 @@ One click and you're good to go. No account, no download, no installation.
 ---
 <img src="https://github.com/madjeek-web/Taskflow_to-do-list/raw/main//Taskflow to-do list Pro_icon_0.jpg" width="35%" height="35%">
 
-## 🗂️ What is it?
+## What is it ?
 
 **Taskflow** is a **to-do list** application — a modern and intuitive task manager, designed with simplicity and performance in mind.
 
@@ -95,7 +95,7 @@ You probably know those lists we write on paper so we don't forget anything?
 
 Taskflow is exactly that, but on your computer or phone. And way better than a piece of paper, because:
 
-- you can **check off** a task when you're done ✅
+- you can **check off** a task when you're done 
 - you can give it a **priority** (urgent, normal, not in a hurry)
 - you can put it in a **category** you create yourself (e.g. "School", "Personal", "Sport")
 - you can set a **deadline** so you never miss an important due date
@@ -106,31 +106,31 @@ Taskflow is exactly that, but on your computer or phone. And way better than a p
 
 <img src="https://github.com/madjeek-web/Taskflow_to-do-list/raw/main//Taskflow to-do list-pro-mascot_01.jpg" width="60%" height="60%">
 
-## ✨ Features
+## Features
 
 | Feature | What it means in practice |
 |---|---|
-| ➕ Add a task | Type what you need to do and press Enter |
-| ✅ Check a task | Click the checkbox when it's done |
-| 🗑️ Delete a task | A button to remove what you no longer need |
-| ✏️ Edit a task | Double-click on the text to fix it |
-| 🔴 🟡 🟢 Priorities | Mark if it's urgent, normal or not pressing |
-| 🗂️ Categories | Sort your tasks by theme (you choose the names) |
-| 📅 Deadline | Set when the task must be finished |
-| 🔍 Search | Type a word to find a specific task |
-| 🔽 Sort | Order your list by date, priority, alphabetical order... |
-| 🌙 Dark mode / ☀️ Light mode | Choose the theme based on your preference |
-| 💾 Auto-save | Nothing disappears, even if you close the browser |
-| 📤 Export | Download your list as a JSON file to keep it safe |
-| 📥 Import | Reload a list you had previously saved |
-| 🖱️ Drag & drop | Reorganize tasks by dragging them with your mouse |
-| 📊 Statistics | See how many tasks you've done vs. still to do |
-| ⌨️ Keyboard shortcuts | Go even faster (full list accessible with the `?` key) |
-| 📱 Responsive design | Works perfectly on phone, tablet and computer |
+|  Add a task | Type what you need to do and press Enter |
+|  Check a task | Click the checkbox when it's done |
+|  Delete a task | A button to remove what you no longer need |
+|  Edit a task | Double-click on the text to fix it |
+|  Priorities | Mark if it's urgent, normal or not pressing |
+|  Categories | Sort your tasks by theme (you choose the names) |
+|  Deadline | Set when the task must be finished |
+|  Search | Type a word to find a specific task |
+|  Sort | Order your list by date, priority, alphabetical order... |
+|  Dark mode / Light mode | Choose the theme based on your preference |
+|  Auto-save | Nothing disappears, even if you close the browser |
+|  Export | Download your list as a JSON file to keep it safe |
+|  Import | Reload a list you had previously saved |
+|  Drag & drop | Reorganize tasks by dragging them with your mouse |
+|  Statistics | See how many tasks you've done vs. still to do |
+|  Keyboard shortcuts | Go even faster (full list accessible with the `?` key) |
+|  Responsive design | Works perfectly on phone, tablet and computer |
 
 ---
 
-## 🛠️ Technologies
+## Technologies
 
 **Frontend:**
 - **Vanilla JavaScript** (ES6+ modules) — No framework dependencies
@@ -146,7 +146,7 @@ Taskflow is exactly that, but on your computer or phone. And way better than a p
 
 ---
 
-## 📋 Prerequisites
+## Prerequisites
 
 Before you start, make sure you have the following installed:
 
@@ -162,9 +162,9 @@ npm --version
 
 ---
 
-## 🚀 Installation
+## Installation
 
-### Option 1 — Online (the fastest ⚡)
+### Option 1 — Online (the fastest)
 
 <a href="https://madjeek-web.github.io/taskflow/taskflow-standalone.html" target="_blank">Simply click this link: <strong>https://madjeek-web.github.io/taskflow/taskflow-standalone.html</strong></a>
 
@@ -177,7 +177,7 @@ No download, no account, no installation. One click and you're ready.
 1. Download the **`taskflow-standalone.html`** file from this repository
 2. Double-click on it on your computer
 3. It opens in your browser (Chrome, Firefox, Safari...)
-4. That's it. You can start using Taskflow right away! 🎉
+4. That's it. You can start using Taskflow right away ! 
 
 > 💡 This file works without an internet connection. You can even put it on a USB stick and use it on any computer!
 
@@ -210,7 +210,7 @@ Go to `http://localhost:5173` (or the URL shown in the terminal).
 
 ---
 
-## 🎮 Usage
+## Usage
 
 ### User interface
 
@@ -281,39 +281,39 @@ Tasks are saved in JSON format:
 | `Escape` | Cancel what you are currently editing |
 | `?` | Show the full list of all shortcuts |
 
-> 💡 On Mac, replace `Ctrl` with `Cmd` (the ⌘ key).
+> On Mac, replace `Ctrl` with `Cmd` (the ⌘ key).
 
 ---
 
-## 🌐 Compatibility
+## Compatibility
 
 ### Browsers
 
 | Browser | Compatible? |
 |---|---|
-| Google Chrome | ✅ Yes, perfectly |
-| Mozilla Firefox | ✅ Yes, perfectly |
-| Microsoft Edge | ✅ Yes, perfectly |
-| Safari (Mac & iPhone) | ✅ Yes, perfectly |
-| Opera | ✅ Yes, perfectly |
-| Internet Explorer | ❌ No (too old, no longer maintained) |
+| Google Chrome | Yes, perfectly |
+| Mozilla Firefox | Yes, perfectly |
+| Microsoft Edge | Yes, perfectly |
+| Safari (Mac & iPhone) | Yes, perfectly |
+| Opera | Yes, perfectly |
+| Internet Explorer | No (too old, no longer maintained) |
 
-> 💡 If your browser is less than 3 years old, Taskflow will work without any issues.
+> If your browser is less than 3 years old, Taskflow will work without any issues.
 
 ### Devices
 
 | Device | Compatible? |
 |---|---|
-| 💻 Computer (Windows, Mac, Linux) | ✅ Yes |
-| 📱 Android smartphone | ✅ Yes |
-| 📱 iPhone / iPad | ✅ Yes |
-| 📟 Tablet | ✅ Yes |
+|  Computer (Windows, Mac, Linux) | Yes |
+|  Android smartphone | Yes |
+|  iPhone / iPad | Yes |
+|  Tablet | Yes |
 
 The application automatically adapts to your screen size — this is called **responsive design**.
 
 ---
 
-## 📁 Project structure
+## Project structure
 
 ```
 Taskflow_to-do-list/
