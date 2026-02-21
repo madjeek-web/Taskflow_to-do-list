@@ -20,13 +20,13 @@ Une application web moderne et intuitive de gestion de tâches, conçue avec sim
 
 ---
 
-## Try it now — no installation needed!
+## Try it now | no installation needed !
 
 <a href="https://madjeek-web.github.io/taskflow/taskflow-standalone.html" target="_blank"> <strong>Open Taskflow online</strong> </a>
 
 One click and you're good to go. No account, no download, no installation.
 
-## Download Taskflow — Choose your language :
+## Download Taskflow | Choose your language :
 
 > Click the link to **open the app instantly** in your browser.
 > To save the file on your computer: press **Ctrl + S** (or **Cmd + S** on Mac) once the app is open.
