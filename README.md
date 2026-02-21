@@ -46,7 +46,7 @@ One click and you're good to go. No account, no download, no installation.
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ### Dark mode 
 ![Taskflow dark mode](https://github.com/madjeek-web/Taskflow_to-do-list/raw/main/screenshots/dark-mode.png)
@@ -672,13 +672,13 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 
 ## Author
 
-Developed with ❤️ by **Fabien Conéjéro / Madjeek**
+**Fabien Conéjéro / Madjeek**
 
 This project was born from a simple desire: to have a task list that is truly pleasant to use, without having to pay a subscription or create an account on an online service. Everything stays on your computer, everything is free, and the code is open to everyone.
 
 ---
 
-## 📚 Useful resources
+## Useful resources
 
 - [Vite documentation](https://vitejs.dev)
 - [Tailwind CSS documentation](https://tailwindcss.com)
@@ -1072,7 +1072,7 @@ Ce projet est sous license MIT - voir le fichier [LICENSE](LICENSE) pour plus de
 
 ## Auteur
 
-Développé avec ❤️ by : Fabien Conéjéro / Madjeek
+Fabien Conéjéro / Madjeek
 
 ---
 
